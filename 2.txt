@@ -6,6 +6,11 @@ file+file+file
 ----------------
 
 
+<<<<<<< Updated upstream
 hellohellohellohello
 
 
+=======
+
+++++++++++++++++++++
+>>>>>>> Stashed changes
