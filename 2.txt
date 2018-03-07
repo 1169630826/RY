@@ -1,6 +1,3 @@
 new+new+new+new
-new+new+new+new
-new+new+new+new
-file+file+file
-file+file+file
+
 file+file+file
