@@ -1,0 +1,15 @@
+2018-04-29 03:08:56,138 - root - INFO - ********TEST START********
+2018-04-29 03:08:56,215 - root - INFO - exist - Code:0 - msg:手机号已经注册
+2018-04-29 03:08:56,291 - root - INFO - get - Code:0 - msg:成功
+2018-04-29 03:08:56,435 - root - INFO - login - Code:0 - msg:成功
+2018-04-29 03:08:56,519 - root - INFO - update - Code:0 - msg:成功
+2018-04-29 03:08:56,601 - root - INFO - getall - Code:0 - msg:获取图层成功
+2018-04-29 03:08:56,668 - root - INFO - update - Code:0 - msg:成功
+2018-04-29 03:08:56,741 - root - INFO - count - Code:0 - msg:成功
+2018-04-29 03:08:56,810 - root - INFO - totalmodelsize - Code:0 - msg:成功
+2018-04-29 03:08:56,885 - root - INFO - shared/getall - Code:0 - msg:获取图层成功
+2018-04-29 03:08:56,960 - root - INFO - shared/count - Code:0 - msg:成功
+2018-04-29 03:08:58,987 - root - INFO - Case test finished and report has generated! .
+2018-04-29 03:08:58,988 - root - INFO - *********TEST END*********
+2018-04-29 03:09:01,858 - root - INFO - The test report has send to developer by email.
+2018-04-29 03:09:01,859 - root - INFO - The report email has send out!
