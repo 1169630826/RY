@@ -2,12 +2,12 @@ user/testexist
 user/testget
 user/testlogin
 user/testuupdate
-job/testone
+#job/testone
 resource/testgetall
 resource/testrupdate
 resource/testcount
 resource/testmodelsize
 resource/testsharedgetall
 resource/testsharedcount
-resource/testremove
+#resource/testremove
 resource/testmodel
