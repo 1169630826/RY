@@ -1,0 +1,17 @@
+2018-05-04 15:56:44,118 - root - INFO - ********TEST START********
+2018-05-04 15:56:44,461 - root - INFO - exist - Code:0 - msg:手机号已经注册
+2018-05-04 15:56:44,503 - root - INFO - get - Code:0 - msg:成功
+2018-05-04 15:56:44,556 - root - INFO - login - Code:0 - msg:成功
+2018-05-04 15:56:44,601 - root - INFO - update - Code:0 - msg:成功
+2018-05-04 15:56:46,569 - root - INFO - one - Code:0 - msg:模型文件上传成功，开始预处理操作
+2018-05-04 15:56:46,621 - root - INFO - getall - Code:0 - msg:获取图层成功
+2018-05-04 15:56:46,658 - root - INFO - update - Code:0 - msg:成功
+2018-05-04 15:56:46,700 - root - INFO - count - Code:0 - msg:成功
+2018-05-04 15:56:46,740 - root - INFO - totalmodelsize - Code:0 - msg:成功
+2018-05-04 15:56:46,788 - root - INFO - shared/getall - Code:0 - msg:获取图层成功
+2018-05-04 15:56:46,832 - root - INFO - shared/count - Code:0 - msg:成功
+2018-05-04 15:56:46,877 - root - INFO - remove/mid - Code:0 - msg:删除资源成功
+2018-05-04 15:56:47,181 - root - INFO - Case test finished and report has generated! .
+2018-05-04 15:56:47,181 - root - INFO - *********TEST END*********
+2018-05-04 15:56:47,184 - root - ERROR - can only join an iterable
+2018-05-04 15:56:47,184 - root - INFO - The report email has send out!
