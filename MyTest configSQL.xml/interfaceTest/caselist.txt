@@ -1,0 +1,13 @@
+user/testexist
+user/testget
+user/testlogin
+user/testuupdate
+#job/testone
+resource/testgetall
+resource/testrupdate
+resource/testcount
+resource/testmodelsize
+resource/testsharedgetall
+resource/testsharedcount
+#resource/testremove
+#resource/testmodel

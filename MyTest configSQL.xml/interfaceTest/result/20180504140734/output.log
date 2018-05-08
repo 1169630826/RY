@@ -1,0 +1,17 @@
+2018-05-04 14:07:36,036 - root - INFO - ********TEST START********
+2018-05-04 14:07:36,075 - root - INFO - exist - Code:0 - msg:手机号已经注册
+2018-05-04 14:07:36,111 - root - INFO - get - Code:0 - msg:成功
+2018-05-04 14:07:36,150 - root - INFO - login - Code:0 - msg:成功
+2018-05-04 14:07:36,193 - root - INFO - update - Code:0 - msg:成功
+2018-05-04 14:07:38,894 - root - INFO - one - Code:0 - msg:模型文件上传成功，开始预处理操作
+2018-05-04 14:07:38,950 - root - INFO - getall - Code:0 - msg:获取图层成功
+2018-05-04 14:07:39,003 - root - INFO - update - Code:0 - msg:成功
+2018-05-04 14:07:39,055 - root - INFO - count - Code:0 - msg:成功
+2018-05-04 14:07:39,102 - root - INFO - totalmodelsize - Code:0 - msg:成功
+2018-05-04 14:07:39,142 - root - INFO - shared/getall - Code:0 - msg:获取图层成功
+2018-05-04 14:07:39,184 - root - INFO - shared/count - Code:0 - msg:成功
+2018-05-04 14:07:39,219 - root - INFO - remove/mid - Code:0 - msg:删除资源成功
+2018-05-04 14:07:39,545 - root - INFO - Case test finished and report has generated! .
+2018-05-04 14:07:39,545 - root - INFO - *********TEST END*********
+2018-05-04 14:07:45,756 - root - INFO - The test report has send to developer by email.
+2018-05-04 14:07:45,756 - root - INFO - The report email has send out!
