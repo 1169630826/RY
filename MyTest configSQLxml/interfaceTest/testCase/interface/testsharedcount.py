@@ -1,14 +1,14 @@
 import json
 import unittest
 import paramunittest
-from interfaceTest.common import common1
+from interfaceTest.common import common
 from interfaceTest.common import businessCommon
 from interfaceTest.common.Log import MyLog
 import interfaceTest.readConfig as readConfig
 from interfaceTest.common import configHttp as configHttp
 import requests
 
-sharedcount_xls= common1.get_xls("data.xls", "sharedcount")
+sharedcount_xls= common.get_xls("data.xls", "sharedcount")
 localReadConfig = readConfig.ReadConfig()
 localConfigHttp = configHttp.ConfigHttp()
 
@@ -58,7 +58,7 @@ class Sharedcount(unittest.TestCase):
         :return:
         """
         # set uel
-        self.url = common1.get_url_from_xml('shared/count')
+        self.url = common.get_url_from_xml('shared/count')
         print "11 is", localConfigHttp.set_url(self.url)
         # set params
         if self.param == '' or self.param is None:
@@ -88,7 +88,7 @@ class Sharedcount(unittest.TestCase):
 
     def checkResult(self):
         self.info = self.response.json()
-        common1.show_return_msg(self.response)
+        common.show_return_msg(self.response)
 
         if self.result == '0':
             self.assertEqual(self.info['stat'], self.code)

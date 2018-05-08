@@ -2,14 +2,14 @@ import json
 import re
 import unittest
 import paramunittest
-from interfaceTest.common import common1
+from interfaceTest.common import common
 from interfaceTest.common import businessCommon
 from interfaceTest.common.Log import MyLog
 import interfaceTest.readConfig as readConfig
 from interfaceTest.common import configHttp as configHttp
 import requests
 
-getall_xls= common1.get_xls("data.xls", "getall")
+getall_xls= common.get_xls("data.xls", "getall")
 localReadConfig = readConfig.ReadConfig()
 localConfigHttp = configHttp.ConfigHttp()
 #print getall_xls
@@ -60,7 +60,7 @@ class Getall(unittest.TestCase):
         :return:
         """
         # set uel
-        self.url = common1.get_url_from_xml('getall')
+        self.url = common.get_url_from_xml('getall')
         print "11 is", localConfigHttp.set_url(self.url)
         # set params
         if self.param == '' or self.param is None:
@@ -94,7 +94,7 @@ class Getall(unittest.TestCase):
 
     def checkResult(self):
         self.info = self.response.json()
-        common1.show_return_msg(self.response)
+        common.show_return_msg(self.response)
 
         if self.result == '0':
             self.assertEqual(self.info['stat'], self.code)

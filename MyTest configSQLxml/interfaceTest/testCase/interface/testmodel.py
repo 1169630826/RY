@@ -2,13 +2,13 @@
 import json
 import unittest
 import paramunittest
-from interfaceTest.common import common1
+from interfaceTest.common import common
 from interfaceTest.common import businessCommon
 from interfaceTest.common.Log import MyLog
 import interfaceTest.readConfig as readConfig
 from interfaceTest.common import configHttp as configHttp
 
-model_xls= common1.get_xls("data.xls", "model")
+model_xls= common.get_xls("data.xls", "model")
 localReadConfig = readConfig.ReadConfig()
 localConfigHttp = configHttp.ConfigHttp()
 #print updater_xls
@@ -36,7 +36,7 @@ class remove(unittest.TestCase):
         self.logintoken=businessCommon.login()
 
     def testinterface(self):
-        url = common1.get_url_from_xml('model')
+        url = common.get_url_from_xml('model')
         nurl = url + "/" + localReadConfig.get_param("mid")
         localConfigHttp.set_url(nurl,flag=2)
         print localConfigHttp.url

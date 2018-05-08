@@ -3,13 +3,13 @@ import json
 import unittest
 import requests
 import paramunittest
-from interfaceTest.common import common1
+from interfaceTest.common import common
 from interfaceTest.common import businessCommon
 from interfaceTest.common.Log import MyLog
 import interfaceTest.readConfig as readConfig
 from interfaceTest.common import configHttp as configHttp
 
-remove_xls= common1.get_xls("data.xls", "remove")
+remove_xls= common.get_xls("data.xls", "remove")
 localReadConfig = readConfig.ReadConfig()
 localConfigHttp = configHttp.ConfigHttp()
 #print updater_xls
@@ -37,7 +37,7 @@ class remove(unittest.TestCase):
         self.logintoken=businessCommon.login()
 
     def testinterface(self):
-        self.url = common1.get_url_from_xml('remove')
+        self.url = common.get_url_from_xml('remove')
         nurl=self.url+"/"+localReadConfig.get_param("mid")
         localConfigHttp.set_url(nurl)
         print "localConfigHttp.url is", localConfigHttp.url
@@ -68,7 +68,7 @@ class remove(unittest.TestCase):
         print "end!"
     def checkResult(self):
         self.info = self.response.json()
-        common1.show_return_msg(self.response)
+        common.show_return_msg(self.response)
 
         if self.result == '0':
             self.assertEqual(self.info['stat'], self.code)

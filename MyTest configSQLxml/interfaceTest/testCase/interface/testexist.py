@@ -1,12 +1,12 @@
 import json
 import unittest
 import paramunittest
-from interfaceTest.common import common1
+from interfaceTest.common import common
 from interfaceTest.common import businessCommon
 from interfaceTest.common.Log import MyLog
 import interfaceTest.readConfig as readConfig
 from interfaceTest.common import configHttp as configHttp
-exist_xls= common1.get_xls("data.xls", "exist")
+exist_xls= common.get_xls("data.xls", "exist")
 localReadConfig = readConfig.ReadConfig()
 localConfigHttp = configHttp.ConfigHttp()
 
@@ -58,7 +58,7 @@ class Exist(unittest.TestCase):
         :return:
         """
         # set uel
-        url = common1.get_url_from_xml('exist')
+        url = common.get_url_from_xml('exist')
         localConfigHttp.set_url(url)
         # set params
         if self.param == '' or self.param is None:
@@ -88,7 +88,7 @@ class Exist(unittest.TestCase):
 
     def checkResult(self):
         self.info = self.response.json()
-        common1.show_return_msg(self.response)
+        common.show_return_msg(self.response)
 
         if self.result == '0':
             self.assertEqual(self.info['stat'], self.code)

@@ -3,13 +3,13 @@ import json
 import unittest
 import requests
 import paramunittest
-from interfaceTest.common import common1
+from interfaceTest.common import common
 from interfaceTest.common import businessCommon
 from interfaceTest.common.Log import MyLog
 import interfaceTest.readConfig as readConfig
 from interfaceTest.common import configHttp as configHttp
 
-count_xls= common1.get_xls("data.xls", "count")
+count_xls= common.get_xls("data.xls", "count")
 localReadConfig = readConfig.ReadConfig()
 localConfigHttp = configHttp.ConfigHttp()
 #print update_xls[0][3]
@@ -41,7 +41,7 @@ class Count(unittest.TestCase):
         :return:
         """
         # set uel
-        self.url = common1.get_url_from_xml('count')
+        self.url = common.get_url_from_xml('count')
         localConfigHttp.set_url(self.url)
         print "localConfigHttp.url is", localConfigHttp.url
 
@@ -71,7 +71,7 @@ class Count(unittest.TestCase):
         print "end!"
     def checkResult(self):
         self.info = self.response.json()
-        common1.show_return_msg(self.response)
+        common.show_return_msg(self.response)
 
         if self.result == '0':
             self.assertEqual(self.info['stat'], self.code)

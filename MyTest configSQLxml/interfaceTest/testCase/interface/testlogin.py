@@ -1,13 +1,13 @@
 import json
 import unittest
 import paramunittest
-from interfaceTest.common import common1
+from interfaceTest.common import common
 from interfaceTest.common import businessCommon
 from interfaceTest.common.Log import MyLog
 import interfaceTest.readConfig as readConfig
 from interfaceTest.common import configHttp as configHttp
 
-login_xls= common1.get_xls("data.xls", "login")
+login_xls= common.get_xls("data.xls", "login")
 localReadConfig = readConfig.ReadConfig()
 localConfigHttp = configHttp.ConfigHttp()
 
@@ -52,14 +52,14 @@ class Login(unittest.TestCase):
         self.log = MyLog.get_log()
         self.logger = self.log.get_logger()
         self.logintoken=businessCommon.login()
-        common1.set_visitor_token_to_config(self.logintoken)
+        common.set_visitor_token_to_config(self.logintoken)
     def testinterface(self):
         """
         test body
         :return:
         """
         # set uel
-        self.url = common1.get_url_from_xml('login')
+        self.url = common.get_url_from_xml('login')
         localConfigHttp.set_url(self.url)
         # set params
         if self.param == '' or self.param is None:
@@ -89,7 +89,7 @@ class Login(unittest.TestCase):
 
     def checkResult(self):
         self.info = self.response.json()
-        common1.show_return_msg(self.response)
+        common.show_return_msg(self.response)
 
         if self.result == '0':
             self.assertEqual(self.info['stat'], self.code)

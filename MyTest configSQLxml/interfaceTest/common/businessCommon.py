@@ -1,12 +1,12 @@
 # coding:utf-8
 import json
-import common1
+import common
 import interfaceTest.common.configHttp as configHttp
 from interfaceTest import readConfig as readConfig
 localReadConfig = readConfig.ReadConfig()
 localConfigHttp =configHttp.ConfigHttp()
 
-localLogin_xls = common1.get_xls("data.xls", "login")
+localLogin_xls = common.get_xls("data.xls", "login")
 #print localLogin_xls
 #data = json.loads(localLogin_xls[0][4])
 #print data
@@ -15,7 +15,7 @@ localLogin_xls = common1.get_xls("data.xls", "login")
 def login():
 
     # set url
-    url = common1.get_url_from_xml('login')
+    url = common.get_url_from_xml('login')
     localConfigHttp.set_url(url)
     #print 'self.url is',localConfigHttp.url
 
@@ -41,7 +41,7 @@ def logout(token):
 
     # set url
 
-    url = common1.get_url_from_xml('logout')
+    url = common.get_url_from_xml('logout')
     localConfigHttp.set_url(url)
 
     # set header
