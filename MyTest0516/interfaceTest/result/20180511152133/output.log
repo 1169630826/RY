@@ -1,5 +1,0 @@
-2018-05-11 15:21:33,305 - root - INFO - loginsuccessfull - Code:0 - msg:成功
-2018-05-11 15:21:33,349 - root - INFO - login_UsernamedError - Code:4 - msg:用户不存在
-2018-05-11 15:21:33,384 - root - INFO - login_UsernameNull - Code:2 - msg:未包含有效的手机号
-2018-05-11 15:21:33,423 - root - INFO - login_PasswordError - Code:5 - msg:密码错误
-2018-05-11 15:21:33,463 - root - INFO - login_PasswordNull - Code:3 - msg:未包含密码

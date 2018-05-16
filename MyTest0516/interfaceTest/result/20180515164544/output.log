@@ -1,7 +1,0 @@
-2018-05-15 16:45:44,785 - root - INFO - getall - Code:0 - msg:获取图层成功
-2018-05-15 16:45:44,828 - root - INFO - missing offsetparam - Code:0 - msg:获取图层成功
-2018-05-15 16:45:44,862 - root - INFO - offset typeerror - Code:500 - msg:服务器内部错误
-2018-05-15 16:45:44,898 - root - INFO - offset is balnk - Code:500 - msg:服务器内部错误
-2018-05-15 16:45:44,938 - root - INFO - missing lengthparam - Code:0 - msg:获取图层成功
-2018-05-15 16:45:44,971 - root - INFO - length typeerror - Code:500 - msg:服务器内部错误
-2018-05-15 16:45:45,019 - root - INFO - length is balnk - Code:500 - msg:服务器内部错误
