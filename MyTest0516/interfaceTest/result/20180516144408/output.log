@@ -1,0 +1,33 @@
+2018-05-16 14:44:08,538 - root - INFO - ********TEST START********
+2018-05-16 14:44:08,582 - root - INFO - exist - Code:0 - msg:手机号已经注册
+2018-05-16 14:44:08,622 - root - INFO - get - Code:0 - msg:成功
+2018-05-16 14:44:08,667 - root - INFO - login - Code:0 - msg:成功
+2018-05-16 14:44:08,704 - root - INFO - missing telphoneparam - Code:2 - msg:未包含有效的手机号
+2018-05-16 14:44:08,746 - root - INFO - telphone blank - Code:2 - msg:未包含有效的手机号
+2018-05-16 14:44:08,802 - root - INFO - telphone typeerror - Code:4 - msg:用户不存在
+2018-05-16 14:44:08,858 - root - INFO - telphone numerror - Code:4 - msg:用户不存在
+2018-05-16 14:44:08,907 - root - INFO - missing passwordparam - Code:3 - msg:未包含密码
+2018-05-16 14:44:08,951 - root - INFO - paasword blank - Code:3 - msg:未包含密码
+2018-05-16 14:44:09,000 - root - INFO - paasword error - Code:5 - msg:密码错误
+2018-05-16 14:44:09,040 - root - INFO - update - Code:500 - msg:服务器内部错误
+2018-05-16 14:44:09,088 - root - INFO - getall - Code:0 - msg:获取图层成功
+2018-05-16 14:44:09,134 - root - INFO - missing offsetparam - Code:0 - msg:获取图层成功
+2018-05-16 14:44:09,171 - root - INFO - offset typeerror - Code:500 - msg:服务器内部错误
+2018-05-16 14:44:09,210 - root - INFO - offset is balnk - Code:500 - msg:服务器内部错误
+2018-05-16 14:44:09,250 - root - INFO - missing lengthparam - Code:0 - msg:获取图层成功
+2018-05-16 14:44:09,286 - root - INFO - length typeerror - Code:500 - msg:服务器内部错误
+2018-05-16 14:44:09,335 - root - INFO - length is balnk - Code:500 - msg:服务器内部错误
+2018-05-16 14:44:09,387 - root - INFO - update - Code:0 - msg:成功
+2018-05-16 14:44:09,437 - root - INFO - missing mid - Code:2 - msg:资源ID非法
+2018-05-16 14:44:09,489 - root - INFO - mid error - Code:3 - msg:资源不存在
+2018-05-16 14:44:09,539 - root - INFO - missing share - Code:0 - msg:成功
+2018-05-16 14:44:09,582 - root - INFO - share error - Code:500 - msg:服务器内部错误
+2018-05-16 14:44:09,625 - root - INFO - share type - Code:0 - msg:成功
+2018-05-16 14:44:09,664 - root - INFO - count - Code:0 - msg:成功
+2018-05-16 14:44:09,703 - root - INFO - totalmodelsize - Code:0 - msg:成功
+2018-05-16 14:44:09,746 - root - INFO - shared/getall - Code:0 - msg:获取图层成功
+2018-05-16 14:44:09,786 - root - INFO - shared/count - Code:0 - msg:成功
+2018-05-16 14:44:09,788 - root - INFO - Case test finished and report has generated! .
+2018-05-16 14:44:09,788 - root - INFO - *********TEST END*********
+2018-05-16 14:44:12,105 - root - INFO - The test report has send to developer by email.
+2018-05-16 14:44:12,105 - root - INFO - The report email has send out!

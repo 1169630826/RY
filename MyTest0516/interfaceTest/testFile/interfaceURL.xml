@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<interface>
+    <url name="login">
+        <group>user</group>
+        <module>login</module>
+    </url>
+
+    <url name="u-update">
+        <group>user</group>
+        <module>update</module>
+    </url>
+
+    <url name="get">
+        <group>user</group>
+        <module>get</module>
+    </url>
+
+    <url name="exist">
+        <group>user</group>
+        <module>exist</module>
+    </url>
+
+    <url name="one">
+        <group>job</group>
+        <module>one</module>
+    </url>
+
+    <url name="getall">
+        <group>resource</group>
+        <module>getall</module>
+    </url>
+
+    <url name="r-update">
+        <group>resource</group>
+        <module>update</module>
+    </url>
+
+    <url name="count">
+        <group>resource</group>
+        <module>count</module>
+    </url>
+
+    <url name="totalmodelsize">
+        <group>resource</group>
+        <module>totalmodelsize</module>
+    </url>
+
+    <url name="shared/count">
+        <group>resource</group>
+        <module>shared/count</module>
+    </url>
+
+    <url name="shared/getall">
+        <group>resource</group>
+        <module>shared/getall</module>
+    </url>
+
+    <url name="remove/mid">
+        <group>resource</group>
+        <module>remove/mid</module>
+    </url>
+
+    <url name="">
+        <group>User</group>
+        <module>Address</module>
+    </url>
+
+    <url name="">
+        <group>product</group>
+        <module>product</module>
+    </url>
+</interface>

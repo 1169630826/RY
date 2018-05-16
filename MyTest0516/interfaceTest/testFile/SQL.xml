@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<page>
+    <database name="user">
+        <table name="userinfo">
+            <sql id="select_member">SELECT * FROM  WHERE member_id=%s</sql>
+            <sql id="delete_user"></sql>
+        </table>
+            <table name="testtable2">
+            <sql id="select_member">SELECT *</sql>
+            <sql id="delete_user">DELETE FROM </sql>
+        </table>
+
+    </database>
+</page>
+
+
+

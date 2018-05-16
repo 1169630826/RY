@@ -1,0 +1,6 @@
+2018-05-15 16:36:26,131 - root - INFO - update - Code:0 - msg:成功
+2018-05-15 16:36:26,164 - root - INFO - missing mid - Code:2 - msg:资源ID非法
+2018-05-15 16:36:26,203 - root - INFO - mid error - Code:3 - msg:资源不存在
+2018-05-15 16:36:26,242 - root - INFO - missing share - Code:0 - msg:成功
+2018-05-15 16:36:26,285 - root - INFO - share error - Code:500 - msg:服务器内部错误
+2018-05-15 16:36:26,321 - root - INFO - share type - Code:0 - msg:成功
